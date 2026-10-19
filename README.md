@@ -11,18 +11,16 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/qiaomiaojoe/ai-academic-app/releases/latest/download/POPPER-mac-arm64.dmg"><b>⬇ 下载 Mac 版</b></a>
+  <b>现阶段为「AI学术训练营·进阶班」学员专享</b>
   &nbsp;·&nbsp;
-  <a href="https://github.com/qiaomiaojoe/ai-academic-app/releases/latest/download/POPPER-win-x64.zip">下载 Windows 版（测试版）</a>
-  &nbsp;·&nbsp;
-  <a href="#下载与安装">安装说明</a>
+  <a href="#怎么获得">怎么获得</a>
   &nbsp;·&nbsp;
   <a href="#交流与反馈">关注公众号 · 交流群</a>
 </p>
 
 ![POPPER 主界面：左边是项目和文件，中间是工作流和工具，右边是 Research Agent](readme-images/home.png)
 
-POPPER 是一款桌面软件，给所有想用 AI 做研究、写论文的人。一整套学术工作流——**选题、文献、研究设计、数据分析、写作、综述、投稿与返修**——在这里都是点一下就能开工的工作流和工具。真正动手的是**你电脑上的 Claude Code 或 Codex**，产出直接存进你的论文文件夹。
+POPPER 是一款桌面软件，给想用 AI 做研究、写论文的人。一整套学术工作流——**选题、文献、研究设计、数据分析、写作、综述、投稿与返修**——在这里都是点一下就能开工的工作流和工具。真正动手的是**你电脑上的 Claude Code 或 Codex**，产出直接存进你的论文文件夹。
 
 这些工作流背后的方法，来自乔淼PhD 的「[AI学术训练营](#背后的方法ai学术训练营)」。
 
@@ -129,14 +127,13 @@ AI 写好的文件在左栏带蓝点提示，点开就在中间显示：Markdown
 
 ---
 
-## 下载与安装
+## 怎么获得
 
-| 电脑 | 直接下载 |
-|---|---|
-| **Mac**（Apple 芯片：M1 及以后） | [POPPER-mac-arm64.dmg](https://github.com/qiaomiaojoe/ai-academic-app/releases/latest/download/POPPER-mac-arm64.dmg) |
-| **Windows** 10 / 11（64 位）· 测试版 | [POPPER-win-x64.zip](https://github.com/qiaomiaojoe/ai-academic-app/releases/latest/download/POPPER-win-x64.zip) |
+POPPER 现阶段是「**AI学术训练营·进阶班｜AI学术工作流实操与开发**」的学员专享软件，安装包在课程里发放；以后会开放给更多人。想了解进阶班，欢迎关注公众号「**乔淼PhD**」（[扫码](#交流与反馈)）。
 
-链接永远指向最新版。Intel 芯片的 Mac 暂时用不了。
+支持的电脑：**Mac**（Apple 芯片：M1 及以后）、**Windows** 10 / 11（64 位，测试版）。Intel 芯片的 Mac 暂时用不了。
+
+## 安装
 
 **装之前**：至少装好 **Claude Code** 或 **Codex**（ChatGPT 桌面版里用过一次 Codex 即可）中的一个，并用自己的账号登录过。
 
@@ -161,7 +158,7 @@ sudo xattr -dr com.apple.quarantine /Applications/POPPER.app
 项目就在你选的文件夹里（默认「文稿 / AI学术工作站」）。设置和任务记录在 Mac 的 `~/Library/Application Support/AI学术工作站/`，Windows 的 `%APPDATA%\AI学术工作站\`。
 
 **和以前的「AI学术工作台」App 是什么关系？**
-POPPER 是它的新一代，已经替代它；旧 App 不再更新，会提示你下载 POPPER。
+POPPER 是它的新一代，已经替代它；旧 App 不再更新。
 
 **出了问题怎么办？**
 到 [AI学术交流群](#交流与反馈) 里说一声，讲清楚在哪一步、看到了什么；需要的话，菜单「帮助 → 打开数据文件夹」，把里面的内容压缩后发上来。
@@ -182,7 +179,7 @@ POPPER 里的每一条工作流、每一个工具，都来自乔淼PhD 在「**A
   <img src="readme-images/wechat-qr.png" width="160" alt="微信扫码关注公众号「乔淼PhD」">
 </p>
 
-**微信扫码关注公众号「乔淼PhD」**：最新的 AI 学术方法、POPPER 的更新，以及加入 AI学术交流群的方式，都在公众号里。使用问题、功能建议、你用 POPPER 做出来的东西，都欢迎到交流群里聊。
+**微信扫码关注公众号「乔淼PhD」**：最新的 AI 学术方法、POPPER 和进阶班的消息，以及加入 AI学术交流群的方式，都在公众号里。使用问题、功能建议、你用 POPPER 做出来的东西，都欢迎到交流群里聊。
 
 ---
 
@@ -207,5 +204,5 @@ POPPER 里的每一条工作流、每一个工具，都来自乔淼PhD 在「**A
 <p align="center">
   <b>POPPER</b> 名字来自科学哲学家卡尔·波普尔。logo 是一只黑天鹅——见过再多白天鹅，也证明不了「天鹅都是白的」；一只黑天鹅就能推翻它。<br>
   开发：乔淼PhD · AI学术训练营<br>
-  <sub>这个仓库存放安装包和更新包，供软件自动下载。使用问题和建议，欢迎到 AI学术交流群。</sub>
+  <sub>这个仓库存放更新包，供已安装的 POPPER 自动下载。使用问题和建议，欢迎到 AI学术交流群。</sub>
 </p>
