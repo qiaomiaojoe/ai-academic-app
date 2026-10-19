@@ -6,7 +6,7 @@
 
 <p align="center">
   <b>把一篇论文从选题做到投稿，交给你自己的 AI。</b><br>
-  免费 · 本地运行 · 用你自己的 Claude Code / Codex<br>
+  本地运行 · 用你自己的 Claude Code / Codex<br>
   <i>All life is problem-solving.</i> —— Karl Popper
 </p>
 
@@ -22,7 +22,7 @@
 
 ![POPPER 主界面：左边是项目和文件，中间是工作流和工具，右边是 Research Agent](readme-images/home.png)
 
-POPPER 是一款**免费**的桌面软件，给所有想用 AI 做研究、写论文的人。一整套学术工作流——**选题、文献、研究设计、数据分析、写作、综述、投稿与返修**——在这里都是点一下就能开工的工作流和工具。真正动手的是**你电脑上的 Claude Code 或 Codex**，产出直接存进你的论文文件夹。
+POPPER 是一款桌面软件，给所有想用 AI 做研究、写论文的人。一整套学术工作流——**选题、文献、研究设计、数据分析、写作、综述、投稿与返修**——在这里都是点一下就能开工的工作流和工具。真正动手的是**你电脑上的 Claude Code 或 Codex**，产出直接存进你的论文文件夹。
 
 这些工作流背后的方法，来自乔淼PhD 的「[AI学术训练营](#背后的方法ai学术训练营)」。
 
@@ -148,17 +148,14 @@ sudo xattr -dr com.apple.quarantine /Applications/POPPER.app
 
 **Windows**：解压到一个固定位置，双击 `POPPER.exe`。出现「Windows 已保护你的电脑」时，点「更多信息」→「仍要运行」。
 
-**装好后第一件事**：点左下角「AI学术环境配置」→「课程 skills」→「**交给 AI 安装**」，你的 AI 会把 44 个学术 skills（[ai-academic-workflow](https://github.com/qiaomiaojoe/ai-academic-workflow)，免费）装好。文献检索工具、Zotero、pandoc 也在这里检查。
+**装好后第一件事**：点左下角「AI学术环境配置」→「课程 skills」→「**交给 AI 安装**」，你的 AI 会把 44 个学术 skills（[ai-academic-workflow](https://github.com/qiaomiaojoe/ai-academic-workflow)）装好。文献检索工具、Zotero、pandoc 也在这里检查。
 
 ---
 
 ## 常见问题
 
-**要付费吗？要 API key 吗？**
-POPPER 和 44 个学术 skills 都免费，也不用 API key。AI 用的是你自己的 Claude Code / Codex 账号和额度。
-
-**不是训练营学员能用吗？**
-能。POPPER 对所有人免费开放，功能没有任何限制。
+**要 API key 吗？**
+不用。AI 用的是你自己的 Claude Code / Codex 账号和额度。
 
 **数据放在哪？**
 项目就在你选的文件夹里（默认「文稿 / AI学术工作站」）。设置和任务记录在 Mac 的 `~/Library/Application Support/AI学术工作站/`，Windows 的 `%APPDATA%\AI学术工作站\`。
@@ -200,8 +197,8 @@ POPPER 里的每一条工作流、每一个工具，都来自乔淼PhD 在「**A
 
 ## 许可
 
-- **POPPER 免费使用**。软件源代码暂不公开。
-- **工作流、工具和 44 个学术 skills 的方法内容**按 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh-hans)（署名—非商业性使用）授权：可以免费使用、分享和改编，需注明出自「乔淼PhD · AI学术训练营」，不得用于商业用途（包括付费课程、培训和付费产品）。商业合作请通过公众号「乔淼PhD」联系。
+- **POPPER** 软件源代码暂不公开。
+- **工作流、工具和 44 个学术 skills 的方法内容**按 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh-hans)（署名—非商业性使用）授权：可以使用、分享和改编，需注明出自「乔淼PhD · AI学术训练营」，不得用于商业用途（包括付费课程、培训和付费产品）。商业合作请通过公众号「乔淼PhD」联系。
 - **POPPER 名称和 logo** 保留所有权利：改编的版本请换一个名字。
 
 ---
