@@ -131,11 +131,11 @@ AI 写好的文件在左栏带蓝点提示，点开就在中间显示：Markdown
 
 POPPER 现阶段是「**AI学术训练营·进阶班｜AI学术工作流实操与开发**」的学员专享软件，安装包在课程里发放；以后会开放给更多人。想了解进阶班，欢迎关注公众号「**乔淼PhD**」（[扫码](#交流与反馈)）。
 
-支持的电脑：**Mac**（Apple 芯片：M1 及以后）、**Windows** 10 / 11（64 位，测试版）。Intel 芯片的 Mac 暂时用不了。
+支持的电脑：**Mac**（Apple 芯片：M1 及以后）、**Windows** 10 / 11（64 位）。Intel 芯片的 Mac 暂时用不了。
 
 ## 安装
 
-**装之前**：至少装好 **Claude Code** 或 **Codex**（ChatGPT 桌面版里用过一次 Codex 即可）中的一个，并用自己的账号登录过。
+**装之前**：至少装好 **Claude Code** 或 **Codex** 其中一个的**命令行版**，并用自己的账号登录过（Mac 上装了 ChatGPT 桌面版一般已经自带 Codex 命令行版；Windows 上要单独装）。还没装也没关系：打开 POPPER 后在「AI学术环境配置」里点「怎么装」，复制一行官方安装命令就能装好。
 
 **Mac**：打开 dmg，把 POPPER 拖进「应用程序」。第一次打开如果提示「Apple 无法验证“POPPER”」，点「完成」，到「系统设置 → 隐私与安全性」往下拉，点「仍要打开」，再输一次开机密码。如果提示「已损坏，无法打开」，在「终端」里运行下面这行再打开：
 
@@ -145,7 +145,7 @@ sudo xattr -dr com.apple.quarantine /Applications/POPPER.app
 
 **Windows**：解压到一个固定位置，双击 `POPPER.exe`。出现「Windows 已保护你的电脑」时，点「更多信息」→「仍要运行」。
 
-**装好后第一件事**：点左下角「AI学术环境配置」→「课程 skills」→「**交给 AI 安装**」，你的 AI 会把 44 个学术 skills（[ai-academic-workflow](https://github.com/qiaomiaojoe/ai-academic-workflow)）装好。文献检索工具、Zotero、pandoc 也在这里检查。
+**装好后第一件事**：点左下角「AI学术环境配置」→「课程 skills」→「**装到 Claude Code**」或「**装到 Codex**」，POPPER 会直接把 44 个学术 skills（[ai-academic-workflow](https://github.com/qiaomiaojoe/ai-academic-workflow)）装好。文献检索工具、Zotero、pandoc 也在这里检查。
 
 ---
 
@@ -187,6 +187,7 @@ POPPER 里的每一条工作流、每一个工具，都来自乔淼PhD 在「**A
 
 | 版本 | 日期 | 新内容 |
 |---|---|---|
+| 1.1.3 | 2026-10-22 | 文件能直接拖进任何一个项目；打开更快（不再等找 AI 程序）；找不到 Claude Code / Codex 时有「怎么装」；课程 skills 由 POPPER 直接下载装好；Windows 上找得到 Codex；OpenAlex key 填写说明 |
 | 1.1.2 | 2026-10-19 | 新图标：白底黑天鹅；左栏「最近」文件只显示 6 个；AI 执行时星芒转得更快 |
 | 1.1.0 | 2026-10-19 | 把文件夹拖进左栏就能新建项目；星芒空闲时慢转、执行时快转；左上角 logo 放大 |
 | 1.0.0 | 2026-10-19 | 第一个正式版 |
